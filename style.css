@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile{
+    display: flex;
+    background:chartreuse;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: 900px;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info{
+    flex: 1;
+}
+
+h2{
+    margin: 0;
+    color: #323132
+}
